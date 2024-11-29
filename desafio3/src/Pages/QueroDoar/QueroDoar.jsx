@@ -14,7 +14,7 @@ export default function QueroDoar(){
                     <input className={s.inputFormDoacao} type="text" name="" id="" placeholder="Categoria"/>
                     <input className={s.inputFormDoacao} type="text" name="" id="" placeholder="Autor"/>
                     <input className={s.inputFormDoacao} type="text" name="" id="" placeholder="Link da Imagem"/>
-                    <button className={s.buttonDoacao}>Doar</button>
+                    <input className={s.buttonDoacao} type="submit" value="Doar"/>
                 </form>
             </section>
         </main>

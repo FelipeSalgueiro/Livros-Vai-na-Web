@@ -5,29 +5,13 @@ export default function LivrosDoados(){
         <main className={s.mainLivrosDoados}>
             <h2>Livros Doados</h2>
             <section className={s.listaLivros}>
-                <section className={s.displayLivro}>
+                <section>
                     <img src={livroProtagonista} alt="Imagem meramente ilustrativa do livro Protagonista."/>
-                    <p>Protagonista</p>
-                    <p>Susanne Andrade</p>
-                    <p>Ficção</p>
-                </section>
-                <section className={s.displayLivro}>
-                    <img src={livroProtagonista} alt="Imagem meramente ilustrativa do livro Protagonista."/>
-                    <p>Protagonista</p>
-                    <p>Susanne Andrade</p>
-                    <p>Ficção</p>
-                </section>
-                <section className={s.displayLivro}>
-                    <img src={livroProtagonista} alt="Imagem meramente ilustrativa do livro Protagonista."/>
-                    <p>Protagonista</p>
-                    <p>Susanne Andrade</p>
-                    <p>Ficção</p>
-                </section>
-                <section className={s.displayLivro}>
-                    <img src={livroProtagonista} alt="Imagem meramente ilustrativa do livro Protagonista."/>
-                    <p>Protagonista</p>
-                    <p>Susanne Andrade</p>
-                    <p>Ficção</p>
+                    <div>
+                        <h3>Protagonista</h3>
+                        <p>Susanne Andrade</p>
+                        <p>Ficção</p>
+                    </div>
                 </section>
                 {/*Aqui entraria outro livro doado*/}
             </section>
