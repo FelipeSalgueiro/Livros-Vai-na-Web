@@ -31,3 +31,28 @@
         font-size: 1.75vh;
     }
 }
+@media (max-width: 768px) {
+    .footer {
+        height: 20vh;
+    }
+    .emCima {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0px;
+        p {
+            font-size: 2vh;
+        }
+    }
+    .redes {
+        width: 55vw;
+        img {
+            width: 80%;
+        }
+    }
+    .emBaixo {
+        p {
+            width: 75%;
+            text-align: center;
+        }
+    }
+}

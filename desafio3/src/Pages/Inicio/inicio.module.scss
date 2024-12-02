@@ -46,3 +46,40 @@
         text-align: center;
     }
 }
+@media (max-width: 768px) {
+    .introducaoInicio {
+        justify-content: center;
+        height: 30vh;
+        h2 {
+            margin-left: 0;
+            text-align: center;
+            width: 55%;
+            font-size: 5vw;
+        }
+    }
+    .motivosDoacao {
+        height: 120vh;
+        h2 {
+            margin-top: 2%;
+            text-align: center;
+        }
+    }
+    .listaMotivos {
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+        margin-bottom: 14%;
+    }
+    .motivoSolo {
+        justify-content: space-evenly;
+        width: 50%;
+        height: 22%;
+        img {
+            width: 24%;
+        }
+        figcaption {
+            width: 89%;
+            font-size: 3.5vw;
+        }
+    }
+}

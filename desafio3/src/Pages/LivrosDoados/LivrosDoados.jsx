@@ -13,6 +13,14 @@ export default function LivrosDoados(){
                         <p>Ficção</p>
                     </div>
                 </section>
+                <section>
+                    <img src={livroProtagonista} alt="Imagem meramente ilustrativa do livro Protagonista."/>
+                    <div>
+                        <h3>Protagonista</h3>
+                        <p>Susanne Andrade</p>
+                        <p>Ficção</p>
+                    </div>
+                </section>
                 {/*Aqui entraria outro livro doado*/}
             </section>
         </main>

@@ -63,25 +63,26 @@
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        height: 8vh;
+        height: 15vh;
     }
     .logoHeader {
-        width: 50vw;
+        width: 60vw;
     }
     .logoImg {
         margin-bottom: 0px;
         width: 15%;
     }
     .h1Header {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .navHeader {
         width: 95vw;
+        height: 5vh;
     }
     .barraPesquisa {
         display: none;
     }
     .link {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 }

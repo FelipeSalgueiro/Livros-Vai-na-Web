@@ -18,7 +18,7 @@
     height: 85%;
     margin-bottom: 2vh;
     border: solid #005695 2px;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 .formTitulo {
     display: flex;
@@ -64,5 +64,40 @@
     background-color: #005695;
     &:hover {
         cursor: pointer;
+    }
+}
+@media (max-width: 768px) {
+    .mainQueroDoar {
+        height: 70vh;
+    }
+    .tituloDoacao {
+        width: 70%;
+        font-size: 2.1vh;
+        text-align: center;
+    }
+    .formCompleto {
+        width: 80%;
+        height: 70%;
+        border-radius: 15px;
+    }
+    .formTitulo {
+        width: 80%;
+        img {
+            height: 4.5vh;
+            margin-bottom: 1vh;
+        }
+        h3 {
+            font-size: 2.2vh;
+        }
+    }
+    .formDoacao {
+        justify-content: space-evenly;
+        height: 75%;
+    }
+    .inputFormDoacao {
+        border-radius: 20px;
+    }
+    .buttonDoacao {
+        margin-top: 3vh;
     }
 }
