@@ -29,6 +29,9 @@
 .link {
     text-decoration: none;
     font-size: 1vw;
+    &:hover {
+        color: #C0C0C0;
+    }
 }
 .barraPesquisa {
     display: flex;
